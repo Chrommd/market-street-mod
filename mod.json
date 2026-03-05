@@ -1,0 +1,8 @@
+{
+  "id": "com.chrommd.50laps",
+  "name": "50 Laps market",
+  "version": "1.0.0",
+  "description": "Adds the 50 lap variant of market street... that's it",
+  "author": "Chrommd",
+  "entry_points": [] 
+}
