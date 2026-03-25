@@ -37959,6 +37959,25 @@ I’ll be cheering you on in your new challenge!]]></Text>
 			<Rare>3</Rare>
 			<ShapeID>20</ShapeID>
 		</ROW>
+		<ROW>
+			<CalibRatio0>0.000000</CalibRatio0>
+			<CalibRatio1>0.000000</CalibRatio1>
+			<CalibRatio2>0.000000</CalibRatio2>
+			<CalibRatio3>0.000000</CalibRatio3>
+			<CalibRatio4>0.000000</CalibRatio4>
+			<ChildGrade0>0</ChildGrade0>
+			<ChildGrade1>0</ChildGrade1>
+			<ChildGrade2>0</ChildGrade2>
+			<ChildGrade3>0</ChildGrade3>
+			<ChildGrade4>0</ChildGrade4>
+			<FileName><![CDATA[h000_skin023_thumbnail.png]]></FileName>
+			<InheritanceRate>5.000000</InheritanceRate>
+			<LimitGrade>10</LimitGrade>
+			<Name><![CDATA[Test]]></Name>
+			<PCBangExcept>0</PCBangExcept>
+			<Rare>3</Rare>
+			<ShapeID>21</ShapeID>
+		</ROW>
 	</TABLE>
 	<TABLE name='DNA_TailFilter' RowCount='6' TableInfoID = '353' FieldCnt = '2'>
 		<FIELDINFO Name='Index' IsKey='1' DataType='INT'></FIELDINFO>
@@ -89054,7 +89073,7 @@ You did not meet the training requirements.]]></Value>
 			<Type>15</Type>
 		</ROW>
 	</TABLE>
-	<TABLE name='MountSkinInfo' RowCount='20' TableInfoID = '288' FieldCnt = '5'>
+	<TABLE name='MountSkinInfo' RowCount='22' TableInfoID = '288' FieldCnt = '5'>
 		<FIELDINFO Name='ID' IsKey='1' DataType='INT'></FIELDINFO>
 		<FIELDINFO Name='Target' IsKey='0' DataType='String'></FIELDINFO>
 		<FIELDINFO Name='Texture' IsKey='0' DataType='String'></FIELDINFO>
@@ -89199,6 +89218,13 @@ You did not meet the training requirements.]]></Value>
 			<ID>20</ID>
 			<Target><![CDATA[_macho.dds]]></Target>
 			<Texture><![CDATA[_skin022_dif.dds]]></Texture>
+		</ROW>
+		<ROW>
+			<AvailFaceType>0</AvailFaceType>
+			<ColorGroup>0</ColorGroup>
+			<ID>21</ID>
+			<Target><![CDATA[_macho.dds]]></Target>
+			<Texture><![CDATA[_skin023_dif.dds]]></Texture>
 		</ROW>
 	</TABLE>
 	<TABLE name='MountSlotInfo' RowCount='5' TableInfoID = '427' FieldCnt = '4'>
