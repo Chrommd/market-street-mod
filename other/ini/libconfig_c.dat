@@ -37571,6 +37571,10 @@ I’ll be cheering you on in your new challenge!]]></Text>
 			<DNA_SkininfoID>20</DNA_SkininfoID>
 			<Index>19</Index>
 		</ROW>
+		<ROW>
+			<DNA_SkininfoID>21</DNA_SkininfoID>
+			<Index>20</Index>
+		</ROW>
 	</TABLE>
 	<TABLE name='DNA_SkinInfo' RowCount='20' TableInfoID = '272' FieldCnt = '17'>
 		<FIELDINFO Name='ShapeID' IsKey='1' DataType='INT'></FIELDINFO>
