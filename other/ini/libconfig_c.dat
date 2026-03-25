@@ -30148,7 +30148,7 @@ success chance.]]></Description>
 닉네임입니다.]]></Value>
 		</ROW>
 	</TABLE>
-	<TABLE name='CharPartInfo' RowCount='328' TableInfoID = '89' FieldCnt = '9'>
+	<TABLE name='CharPartInfo' RowCount='329' TableInfoID = '89' FieldCnt = '9'>
 		<FIELDINFO Name='Tid' IsKey='1' DataType='INT' InputType='fkKey'></FIELDINFO>
 		<FIELDINFO Name='MeshFileName' IsKey='0' DataType='String'></FIELDINFO>
 		<FIELDINFO Name='CharID' IsKey='0' DataType='Enum'></FIELDINFO>
@@ -33765,6 +33765,17 @@ success chance.]]></Description>
 			<MeshFileNameD><![CDATA[ ]]></MeshFileNameD>
 			<PartMeshCastType>0</PartMeshCastType>
 			<Tid>30172</Tid>
+		</ROW>
+		<ROW>
+			<CharID>10</CharID>
+			<CharPartType>6</CharPartType>
+			<ClientCharPartPosMask>48</ClientCharPartPosMask>
+			<MeshFileName><![CDATA[r02_cbt091_00_a]]></MeshFileName>
+			<MeshFileNameB><![CDATA[ ]]></MeshFileNameB>
+			<MeshFileNameC><![CDATA[ ]]></MeshFileNameC>
+			<MeshFileNameD><![CDATA[ ]]></MeshFileNameD>
+			<PartMeshCastType>1</PartMeshCastType>
+			<Tid>30173</Tid>
 		</ROW>
 	</TABLE>
 	<TABLE name='CharPartSet' RowCount='3' TableInfoID = '91' FieldCnt = '4'>
@@ -53448,7 +53459,7 @@ Please check it out!]]></Value>
 			<Time_5>0</Time_5>
 		</ROW>
 	</TABLE>
-	<TABLE name='ItemIndex' RowCount='745' TableInfoID = '110' FieldCnt = '16'>
+	<TABLE name='ItemIndex' RowCount='746' TableInfoID = '110' FieldCnt = '16'>
 		<FIELDINFO Name='TID' IsKey='1' DataType='INT' InputType='pkKey'></FIELDINFO>
 		<FIELDINFO Name='Type' IsKey='0' DataType='String' InputType='typeSelector'></FIELDINFO>
 		<FIELDINFO Name='Name' IsKey='0' DataType='String'></FIELDINFO>
@@ -69014,6 +69025,28 @@ by becoming one with the horse.]]></statDesc>
 			<TID>30172</TID>
 			<Type><![CDATA[1/3]]></Type>
 			<UIFileName><![CDATA[icon_r02_cpt026_00]]></UIFileName>
+			<statDesc><![CDATA[ ]]></statDesc>
+		</ROW>
+		<ROW>
+			<CharMultiAbility><![CDATA[CharMultiAbility]]></CharMultiAbility>
+			<ConsumeType>0</ConsumeType>
+			<Desc><![CDATA[<font color=#c2afa3></font><font color=#ff7e00>먼 동쪽의 신비한 문명</font><font color=#c2afa3>에서 전해지는 전통의상입니다.
+
+색이 선명한 비단에 여러 기원의 문양을 수놓은 아름다운 의상입니다. 특히, </font><font color=#ff7e00>학과 구름 문양은 장수를 의미</font><font color=#c2afa3>하는 것이라고 전해집니다. 의상을 입은 것만으로도 마치 </font><font color=#ff7e00>동쪽의 고귀한 후계자</font><font color=#c2afa3>가 된 것 같은 기분과 가호가 매끄럽고 신비한 광택을 타고 온몸에 흐를 것입니다.
+
+</font><font color=#FFFFFF>꽃자수 도령 복건</font><font color=#c2afa3>를 함께 착용하면 동쪽 나라의 귀한 소년의 모습으로 완성됩니다.</font>]]></Desc>
+			<ItemFunc>0</ItemFunc>
+			<ItemFuncValue>0</ItemFuncValue>
+			<ItemParam><![CDATA[ ]]></ItemParam>
+			<LargeUIFileName><![CDATA[icon_r02_cbt080_00]]></LargeUIFileName>
+			<LimitLevel>1</LimitLevel>
+			<Name><![CDATA[Test item]]></Name>
+			<PartInfo><![CDATA[CharPartInfo]]></PartInfo>
+			<PremiumOnly>0</PremiumOnly>
+			<RelatedTID>0</RelatedTID>
+			<TID>30173</TID>
+			<Type><![CDATA[1/2]]></Type>
+			<UIFileName><![CDATA[icon_r02_cbt080_00]]></UIFileName>
 			<statDesc><![CDATA[ ]]></statDesc>
 		</ROW>
 	</TABLE>
